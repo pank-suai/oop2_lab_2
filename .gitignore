@@ -1,4 +1,28 @@
+# Build directories and executables
 build/
+build_qt/
+*.app/
+computer_calculator
+
+# Qt generated files
+Makefile
+moc_*.cpp
+moc_predefs.h
+ui_*.h
+*.o
+.qmake.stash
+.qtcreator/
+*.pro.user
+
+# System files
+.DS_Store
+
+# OS generated files
+Thumbnail
+ehthumbs.db
+Desktop.ini
+
+# Temp files
 *~
 ~*
 #*#

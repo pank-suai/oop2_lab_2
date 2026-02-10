@@ -2,7 +2,7 @@
 description: Writes a report in Typst format (docs/index.typ) based strictly on the structure in TASK.md.
 mode: subagent
 temperature: 0.2
-model: github-copilot/gemini-3-flash-preview
+model: google/gemini-3-flash-preview
 tools:
   bash: true
   read: true
